@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f5;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ffcccb;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 5px;
+}
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.about {
+    background-color: #e0f7fa;
+    color: #00796b;
+}
+
+.projects {
+    background-color: #fce4ec;
+    color: #ad1457;
+}
+
+.skills {
+    background-color: #f1f8e9;
+    color: #33691e;
+}
+
+.contact {
+    background-color: #fbe9e7;
+    color: #bf360c;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    position: relative;
+    color: inherit;
+}
+
+h2::after {
+    content: '';
+    height: 3px;
+    width: 50px;
+    background-color: #ff5733;
+    display: block;
+    margin: 10px auto;
+}
+
+.project, .skills ul {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 1.7em;
+    color: inherit;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.skills ul {
+    list-style-type: none;
+}
+
+.skills ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #666;
+}
+.contact a {
+    color: #bf360c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #ff5722;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer a {
+    color: #ff5733;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
